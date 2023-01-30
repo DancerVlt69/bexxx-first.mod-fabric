@@ -1,7 +1,7 @@
 package net.bexxx.tutorialmod.block;
 
 import net.bexxx.tutorialmod.TutorialMod;
-import net.bexxx.tutorialmod.item.ModItemGroup;
+import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -10,12 +10,9 @@ import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
-
-import static net.minecraft.util.registry.Registry.register;
 
 public class ModBlocks {
     public static final Block TANZANITE_BLOCK = registerBlock("tanzanite_block",
