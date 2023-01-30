@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:polished_blackstone"
+         },
+      "X": {
+        "item": "minecraft:smooth_quartz"
+      },
+    "Y": {
+      "item": "tutorialmod:eight_ball_shard"
+    }
+
+  },
+  "pattern": [
+    "#Y#",
+    "#X#",
+    "#Y#"
+  ],
+  "result": {
+    "item": "tutorialmod:eight_ball"
+  }
+}

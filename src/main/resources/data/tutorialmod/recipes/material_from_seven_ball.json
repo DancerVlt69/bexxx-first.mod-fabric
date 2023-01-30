@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:seven_ball"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:seven_ball_shard",
+    "count": 7
+
+  }
+}

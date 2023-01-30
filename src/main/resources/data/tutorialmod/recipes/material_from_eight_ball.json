@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:eight_ball"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:eight_ball_shard",
+    "count": 8
+
+  }
+}

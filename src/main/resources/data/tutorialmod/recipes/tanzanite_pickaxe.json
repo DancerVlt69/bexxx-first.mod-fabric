@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "tutorialmod:raw_tanzanite"
+    },
+    "X": {
+      "item": "tutorialmod:tanzanite_shard_item"
+    },
+    "Y": {
+      "item": "tutorialmod:tanzanite_shard"
+    }
+  },
+  "pattern": [
+    "XYX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "tutorialmod:tanzanite_pickaxe"
+  }
+}

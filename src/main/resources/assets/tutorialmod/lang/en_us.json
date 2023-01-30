@@ -1,0 +1,30 @@
+{
+  "item.tutorialmod.raw_tanzanite": "Raw Tanzanite",
+  "item.tutorialmod.tanzanite": "Tanzanite",
+  "block.tutorialmod.tanzanite_block": "Block of Tanzanite",
+  "block.tutorialmod.tanzanite_ore": "Tanzanite ore",
+  "block.tutorialmod.deepslate_tanzanite_ore": "Deepslate Tanzanite Ore",
+  "block.tutorialmod.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
+  "block.tutorialmod.endstone_tanzanite_ore": "Endstone Tanzanite Ore",
+  "item.tutorialmod.eight_ball": "magic Eightball",
+  "item.tutorialmod.eight_ball_shard": "magic Eight Ball shard",
+  "item.tutorialmod.seven_ball": "magic SevenBall",
+  "item.tutorialmod.seven_ball_shard": "magic SevenBall Shard",
+  "item.tutorialmod.tanzanite_pickaxe": "Tanzanite Pickaxe",
+  "item.tutorialmod.tanzanite_shard": "Tanzanite Shard",
+  "item.tutorialmod.omegapickaxe": "Omega Pickaxe",
+  "tutorialmod.toolmaterial.custom.OmegaPickaxeMaterial": "Omega",
+  "tutorialmod.item.custom.OmegaPickaxe": "Omega Pickaxe",
+  "tutorialmod.item.ModItems.raw_ruby": "Raw Ruby",
+  "tutorialmod.block.ModBlocks.ruby_ore": "Ruby Ore",
+
+
+
+
+
+
+  "itemGroup.tutorialmod.tab1": "Tutorialmod",
+  "itemGroup.tutorialmod.tab2": "Eight Ball",
+  "itemGroup.tutorialmod.tab3": "Tanzanite Tools",
+  "itemgroup.tutorialmod.tab4": "Omega"
+}

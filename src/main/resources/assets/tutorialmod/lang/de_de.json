@@ -1,0 +1,33 @@
+{
+  "item.tutorialmod.raw_tanzanite": "Rohes Tansanit",
+  "item.tutorialmod.tanzanite": "Tansanit",
+
+  "block.tutorialmod.tanzanite_block": "Tansanit Block",
+  "block.tutorialmod.deepslate_tanzanite_ore": "Tiefenschiefer Tansanit Erz",
+  "block.tutorialmod.tanzanite_ore": "Tansanit Erz",
+  "block.tutorialmod.endstone_tanzanite_ore": "Endstein  Tansanit Erz",
+  "block.tutorialmod.netherrack_tanzanite_ore": "Nether Tansanit Erz",
+  "item.tutorialmod.eight_ball": "Magischer Achter Ball",
+  "item.tutorialmod.eight_ball_shard": "Magischer Achter Ball Kristall",
+  "item.tutorialmod.seven_ball": "magischer sibenderball",
+  "item.tutorialmod.seven_ball_shard": "magischer sibenderball Kristall",
+  "item.tutorialmod.tanzanite_pickaxe": "Tansanit Spitzhacke",
+  "tutorialmod.toolmaterial.custom.tanzanitesharditem": "tansanit kristall item",
+  "tutorialmod.item.ModItems.tanzanite_shard": "tansanit kristall",
+  "tutorialmod.toolmaterial.custom.OmegaPickaxeMaterial": "Omega",
+  "tutorialmod.item.custom.OmegaPickaxe": "Omega Spitzhacke",
+  "tutorialmod.item.ModItems.raw_ruby": "Roher Rubin",
+  "tutorialmod.block.ModBlocks.ruby_ore": "Rubin Erz",
+
+
+
+
+
+
+
+
+  "itemGroup.tutorialmod.tab1": "Tutorialmod",
+  "itemGroup.tutorialmod.tab2": "EightBall",
+  "itemGroup.tutorialmod.tab3": "Tansanit Tools",
+  "itemgroup.tutorialmod.tab4": "Omega"
+}

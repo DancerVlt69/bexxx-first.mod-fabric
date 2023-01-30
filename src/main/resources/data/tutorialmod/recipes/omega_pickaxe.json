@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:crying_obsidian"
+    },
+    "X": {
+      "item": "tutorialmod:tanzanite_shard_item"
+    },
+    "Y": {
+      "item": "tutorialmod:gold_coin_material"
+    },
+    "E": {
+      "item": "tutorialmod:tanzanite_shard_item"
+    }
+  },
+  "pattern": [
+    "XYX",
+    " E ",
+    " # "
+  ],
+  "result": {
+    "item": "tutorialmod:omega_pickaxe"
+  }
+}
