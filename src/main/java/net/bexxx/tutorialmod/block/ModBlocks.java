@@ -2,6 +2,7 @@ package net.bexxx.tutorialmod.block;
 
 import net.bexxx.tutorialmod.TutorialMod;
 import net.bexxx.tutorialmod.block.custom.JumpBlock;
+import net.bexxx.tutorialmod.block.custom.TanzaniteLampBlock;
 import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -35,7 +36,9 @@ public class ModBlocks {
                     UniformIntProvider.create(7, 10)), ModItemGroup.TANZANITE);
     public static final Block JUMP_BLOCK = registerBlock("jump_block",
             new JumpBlock(FabricBlockSettings.of(Material.METAL).strength(1)), ModItemGroup.TANZANITE);
-
+    public static final Block TANZANITE_LAMP = registerBlock("tanzanite_lamp",
+            new  TanzaniteLampBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()
+                    .luminance(state -> state.get(TanzaniteLampBlock.LIT) ? 15 : 0)), ModItemGroup.TANZANITE);
 
 
 
