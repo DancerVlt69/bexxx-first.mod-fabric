@@ -6,7 +6,6 @@
     "tutorialmod:deepslate_tanzanite_ore",
     "tutorialmod:netherrack_tanzanite_ore",
     "tutorialmod:endstone_tanzanite_ore",
-    "tutorialmod:ruby_ore",
-    "minecraft:bedrock"
+    "tutorialmod:ruby_ore"
   ]
 }

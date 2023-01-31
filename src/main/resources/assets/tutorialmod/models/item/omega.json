@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "tutorialmod:item/gold_coin_material"
+    "layer0": "tutorialmod:item/omega"
   }
 }

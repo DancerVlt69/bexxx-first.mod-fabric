@@ -13,8 +13,8 @@ public enum ModToolMaterials implements ToolMaterial {
         return Ingredient.ofItems(ModItems.TANZANITE);
     }),
 
-    OMEGA(4, 6100, 12.0F, 4.0F, 30, () -> {
-        return Ingredient.ofItems(ModItems.TANZANITE);
+    OMEGA(4, 6100, 23.0F, 4.0F, 30, () -> {
+        return Ingredient.ofItems(ModItems.TANZANITE_SHARD_PIECE);
     });
 
     private final int miningLevel;

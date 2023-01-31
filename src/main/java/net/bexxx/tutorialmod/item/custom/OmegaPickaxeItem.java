@@ -23,11 +23,5 @@ public class OmegaPickaxeItem extends PickaxeItem {
 		return enchantability; // return 50;
 	}
 
-	@Override
-	public boolean canMine(BlockState block, World world, BlockPos pos, PlayerEntity miner) {
-		ItemStack stack = miner.getStackInHand(Hand.MAIN_HAND);
-		boolean canMine;
-		canMine = super.canMine(block, world, pos,miner);
-		return canMine;
-	}
+
 }

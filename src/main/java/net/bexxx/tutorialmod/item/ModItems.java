@@ -41,10 +41,9 @@ public class ModItems {
                 new FabricItemSettings().group(ModItemGroup.TANZANITE_TOOLS)));
 
     public static final Item OMEGA_PICKAXE = registerItem("omega_pickaxe",
-          new OmegaPickaxeItem(ModToolMaterials.OMEGA, 1, 1.0F, 50, new Item.Settings()
+          new OmegaPickaxeItem(ModToolMaterials.OMEGA, 2, 2.0F, 50, new Item.Settings()
                   .group(ModItemGroup.OMEGA)));
-
-    private static Item registerItem(String name, ModToolMaterials omega_pickaxe_material) {
+    private static Item registerItem(String name, ModToolMaterials OMEGA) {
         return null;
     }
     public static final Item RAW_RUBY = registerItem("raw_ruby",
@@ -52,12 +51,7 @@ public class ModItems {
 
 
 
-
-
-
-
-
-
+ 
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);

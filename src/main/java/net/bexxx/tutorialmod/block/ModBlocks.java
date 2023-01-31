@@ -1,6 +1,7 @@
 package net.bexxx.tutorialmod.block;
 
 import net.bexxx.tutorialmod.TutorialMod;
+import net.bexxx.tutorialmod.block.custom.JumpBlock;
 import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -29,10 +30,11 @@ public class ModBlocks {
     public static final Block NETHERRACK_TANZANITE_ORE = registerBlock("netherrack_tanzanite_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1).requiresTool(),
                     UniformIntProvider.create(7, 10)), ModItemGroup.TANZANITE);
-    public static final Block RUBY_ORE = registerBlock("ruby_ore",
+    public static final Block RUNY_ORE = registerBlock("ruby_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).strength(1).requiresTool(),
                     UniformIntProvider.create(7, 10)), ModItemGroup.TANZANITE);
-
+    public static final Block JUMP_BLOCK = registerBlock("jump_block",
+            new JumpBlock(FabricBlockSettings.of(Material.METAL).strength(1)), ModItemGroup.TANZANITE);
 
 
 
