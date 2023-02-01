@@ -17,15 +17,25 @@
   "item.tutorialmod.omega_pickaxe": "Omega Pickaxe",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
-  "block.tutorialmod.jumpy_block": "Jumpy Block",
+  "block.tutorialmod.jump_block": "Jump Block",
   "block.tutorialmod.tanzanite_lamp": "Tanzanite Lamp",
-
-
+  "item.tutorialmod.eggplant": "Eggplant",
+  "item.tutorialmod.eggplant_seeds": "Eggplant Seeds",
+  "block.tutorialmod.eggplant_crop": "Eggplant Crop",
+  "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
+  "block.tutorialmod.soap_water": "Soap Water",
 
 
 
   "itemGroup.tutorialmod.tab1": "Tutorialmod",
   "itemGroup.tutorialmod.tab2": "Eight Ball",
   "itemGroup.tutorialmod.tab3": "Tanzanite Tools",
-  "itemgroup.tutorialmod.tab4": "Omega"
+  "itemGroup.tutorialmod.tab4": "Omega",
+  "itemGroup.tutorialmod.tab5": "Plants",
+
+  "entity.minecraft.villager.jumpmaster": "Jump Master",
+  "entity.minecraft.villager.tanzanite_trader": "Tanzanite trader",
+  "entity.minecraft.villager.enchanter": "Enchanter"
+
+
 }

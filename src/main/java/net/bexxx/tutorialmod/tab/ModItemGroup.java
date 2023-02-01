@@ -18,4 +18,6 @@ public class ModItemGroup {
 			new Identifier(MODID, "tab3"), () -> new ItemStack(ModItems.TANZANITE_SHARD));
 	public static final ItemGroup OMEGA = FabricItemGroupBuilder.build(
 			new Identifier(MODID, "tab4"), () -> new ItemStack(ModItems.OMEGA_PICKAXE));
+	public static final ItemGroup PLANTS = FabricItemGroupBuilder.build(
+			new Identifier(MODID, "tab5"), () -> new ItemStack(ModItems.EGGPLANT));
 }

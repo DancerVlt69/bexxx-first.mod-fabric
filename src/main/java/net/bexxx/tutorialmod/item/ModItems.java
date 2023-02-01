@@ -1,14 +1,13 @@
 package net.bexxx.tutorialmod.item;
 
+import net.bexxx.tutorialmod.block.ModBlocks;
 import net.bexxx.tutorialmod.item.custom.EightBallItem;
 import net.bexxx.tutorialmod.item.custom.OmegaPickaxeItem;
 import net.bexxx.tutorialmod.item.custom.SevenBallItem;
 import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.bexxx.tutorialmod.toolmaterial.custom.ModToolMaterials;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ToolMaterials;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -49,9 +48,15 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItem("raw_ruby",
         new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
+    public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
+            new AliasedBlockItem(ModBlocks.EGGPLANT_CROP,
+                    new FabricItemSettings().group(ModItemGroup.PLANTS)));
+    public static final Item EGGPLANT = registerItem("eggplant",
+            new Item(new FabricItemSettings().group(ModItemGroup.PLANTS)
+                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).alwaysEdible().build())));
 
 
- 
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);
