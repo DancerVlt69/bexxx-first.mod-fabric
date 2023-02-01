@@ -18,15 +18,15 @@
 
   "environment": "*",
   "entrypoints": {
+    "client": [
+    "net.bexxx.tutorialmod.TutorialModClient"
+  ],
     "main": [
       "net.bexxx.tutorialmod.TutorialMod"
     ]
   },
   "mixins": [
     "tutorialmod.mixins.json"
-  ],
-  "client": [
-    "net.bexxx.tutorialmod.TutorialModClient"
   ],
 
   "depends": {
