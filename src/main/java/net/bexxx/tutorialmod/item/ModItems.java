@@ -57,6 +57,7 @@ public class ModItems {
 
 
 
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);
 

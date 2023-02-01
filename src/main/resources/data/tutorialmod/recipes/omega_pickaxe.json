@@ -5,13 +5,13 @@
       "item": "minecraft:crying_obsidian"
     },
     "X": {
-      "item": "tutorialmod:tanzanite_shard_item"
+      "item": "tutorialmod:tanzanite_shard"
     },
     "Y": {
-      "item": "tutorialmod:gold_coin_material"
+      "item": "minecraft:gold_nugget"
     },
     "E": {
-      "item": "tutorialmod:tanzanite_shard_item"
+      "item": "tutorialmod:tanzanite_shard"
     }
   },
   "pattern": [
