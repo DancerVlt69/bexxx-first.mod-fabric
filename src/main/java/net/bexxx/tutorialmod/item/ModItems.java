@@ -36,12 +36,13 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE_TOOLS)));
 
     public static final Item TANZANITE_PICKAXE = registerItem("tanzanite_pickaxe",
-        new PickaxeItem(ToolMaterials.DIAMOND, 1, 3f,
+        new PickaxeItem(ModToolMaterials.TANZANITE, 1, 3f,
                 new FabricItemSettings().group(ModItemGroup.TANZANITE_TOOLS)));
 
     public static final Item OMEGA_PICKAXE = registerItem("omega_pickaxe",
-          new OmegaPickaxeItem(ModToolMaterials.OMEGA, 2, 2.0F, 50, new Item.Settings()
-                  .group(ModItemGroup.OMEGA)));
+          new OmegaPickaxeItem(ModToolMaterials.OMEGA, 2, 2.0F, 50,
+                  new FabricItemSettings().group(ModItemGroup.OMEGA)));
+
     private static Item registerItem(String name, ModToolMaterials OMEGA) {
         return null;
     }
@@ -49,20 +50,15 @@ public class ModItems {
         new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
     public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
-            new AliasedBlockItem(ModBlocks.EGGPLANT_CROP,
-                    new FabricItemSettings().group(ModItemGroup.PLANTS)));
+            new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new FabricItemSettings().group(ModItemGroup.PLANTS)));
+
     public static final Item EGGPLANT = registerItem("eggplant",
             new Item(new FabricItemSettings().group(ModItemGroup.PLANTS)
-                    .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).alwaysEdible().build())));
-
-
-
+                    .food(new FoodComponent.Builder().hunger(4)
+                            .saturationModifier(4f).alwaysEdible().build())));
 
     private static Item registerItem(String name, Item item) {
-        return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(MODID, name), item); }
 
-    }
-
-    public static void registerModItems() { LOGGER.debug("Registering Mod Items for " + MODID);
-    }
+    public static void registerModItems() { LOGGER.debug("Registering Mod Items for " + MODID); }
 }

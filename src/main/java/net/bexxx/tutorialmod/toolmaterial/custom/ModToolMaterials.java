@@ -9,11 +9,11 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    TANZANITE(4, 2200, 12.0F, 4.0F, 30, () -> {
+    TANZANITE(5, 2200, 12.0F, 4.0F, 30, () -> {
         return Ingredient.ofItems(ModItems.TANZANITE);
     }),
 
-    OMEGA(4, 6100, 23.0F, 4.0F, 30, () -> {
+    OMEGA(7, 6100, 23.0F, 4.0F, 30, () -> {
         return Ingredient.ofItems(ModItems.TANZANITE_SHARD_PIECE);
     });
 
@@ -33,32 +33,20 @@ public enum ModToolMaterials implements ToolMaterial {
         this.repairIngredient = new Lazy(repairIngredient);
     }
     @Override
-    public int getDurability() {
-        return itemDurability;
-    }
+    public int getDurability() { return itemDurability; }
 
     @Override
-    public float getMiningSpeedMultiplier() {
-        return miningSpeed;
-    }
+    public float getMiningSpeedMultiplier() { return miningSpeed; }
 
     @Override
-    public float getAttackDamage() {
-        return attackDamage;
-    }
+    public float getAttackDamage() { return attackDamage; }
 
     @Override
-    public int getMiningLevel() {
-        return miningLevel;
-    }
+    public int getMiningLevel() { return miningLevel; }
 
     @Override
-    public int getEnchantability() {
-        return enchantability;
-    }
+    public int getEnchantability() { return enchantability; }
 
     @Override
-    public Ingredient getRepairIngredient() {
-        return repairIngredient.get();
-    }
+    public Ingredient getRepairIngredient() { return repairIngredient.get(); }
 }
