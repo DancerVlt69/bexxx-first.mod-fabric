@@ -54,7 +54,8 @@ public class ModItems {
     public static final Item EGGPLANT = registerItem("eggplant",
             new Item(new FabricItemSettings().group(ModItemGroup.PLANTS)
                     .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).alwaysEdible().build())));
-
+public static final Item RUBY = registerItem("ruby",
+        new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
 
 
 
