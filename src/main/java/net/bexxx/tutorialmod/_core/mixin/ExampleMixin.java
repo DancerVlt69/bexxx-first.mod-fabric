@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.mixin;
+package net.bexxx.tutorialmod._core.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
