@@ -1,7 +1,7 @@
-package net.bexxx.tutorialmod.world.feature;
+package net.bexxx.tutorialmod.init.world.feature;
 
 import net.bexxx.tutorialmod.TutorialMod;
-import net.bexxx.tutorialmod.block.ModBlocks;
+import net.bexxx.tutorialmod.init.blocks.ModBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.util.registry.RegistryEntry;

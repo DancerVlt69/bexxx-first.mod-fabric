@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.fluid;
+package net.bexxx.tutorialmod.init.fluid;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

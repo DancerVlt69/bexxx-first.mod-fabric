@@ -1,6 +1,6 @@
-package net.bexxx.tutorialmod.util;
+package net.bexxx.tutorialmod.init.util.loot;
 
-import net.bexxx.tutorialmod.item.ModItems;
+import net.bexxx.tutorialmod.init.items.ModItems;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;

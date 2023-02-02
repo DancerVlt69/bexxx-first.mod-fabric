@@ -1,7 +1,6 @@
-package net.bexxx.tutorialmod.fluid;
+package net.bexxx.tutorialmod.init.fluid;
 
 import net.bexxx.tutorialmod.TutorialMod;
-import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;

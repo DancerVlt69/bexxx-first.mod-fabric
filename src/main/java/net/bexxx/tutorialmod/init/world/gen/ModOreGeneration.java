@@ -1,6 +1,6 @@
-package net.bexxx.tutorialmod.world.gen;
+package net.bexxx.tutorialmod.init.world.gen;
 
-import net.bexxx.tutorialmod.world.feature.ModPlacedFeatures;
+import net.bexxx.tutorialmod.init.world.feature.ModPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.world.gen.GenerationStep;

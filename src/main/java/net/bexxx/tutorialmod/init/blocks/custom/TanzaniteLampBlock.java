@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.block.custom;
+package net.bexxx.tutorialmod.init.blocks.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

@@ -1,6 +1,6 @@
-package net.bexxx.tutorialmod.block.custom;
+package net.bexxx.tutorialmod.init.blocks.custom;
 
-import net.bexxx.tutorialmod.item.ModItems;
+import net.bexxx.tutorialmod.init.items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;

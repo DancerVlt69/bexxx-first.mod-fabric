@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.block.custom;
+package net.bexxx.tutorialmod.init.blocks.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -7,7 +7,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.Item;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;

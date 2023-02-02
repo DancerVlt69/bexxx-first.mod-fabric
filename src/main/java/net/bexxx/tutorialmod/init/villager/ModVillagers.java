@@ -1,9 +1,9 @@
-package net.bexxx.tutorialmod.villager;
+package net.bexxx.tutorialmod.init.villager;
 
 import com.google.common.collect.ImmutableSet;
 import net.bexxx.tutorialmod.TutorialMod;
-import net.bexxx.tutorialmod.block.ModBlocks;
-import net.bexxx.tutorialmod.item.ModItems;
+import net.bexxx.tutorialmod.init.blocks.ModBlocks;
+import net.bexxx.tutorialmod.init.items.ModItems;
 import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
@@ -11,7 +11,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.nbt.NbtTypes;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;

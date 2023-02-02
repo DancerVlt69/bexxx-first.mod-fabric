@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.world.feature;
+package net.bexxx.tutorialmod.init.world.feature;
 
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.YOffset;

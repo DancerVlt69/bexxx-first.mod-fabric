@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.painting;
+package net.bexxx.tutorialmod.init.paintings;
 
 import net.bexxx.tutorialmod.TutorialMod;
 import net.minecraft.entity.decoration.painting.PaintingVariant;

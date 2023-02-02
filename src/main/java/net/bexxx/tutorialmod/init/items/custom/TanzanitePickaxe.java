@@ -1,6 +1,6 @@
-package net.bexxx.tutorialmod.item.custom;
+package net.bexxx.tutorialmod.init.items.custom;
 
-import net.bexxx.tutorialmod.tab.ModItemGroup;
+import net.bexxx.tutorialmod.init.util.tab.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
