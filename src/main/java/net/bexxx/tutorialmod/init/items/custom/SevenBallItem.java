@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.item.custom;
+package net.bexxx.tutorialmod.init.items.custom;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
@@ -15,9 +15,14 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class EightBallItem extends Item {
-    public EightBallItem(Settings settings) {
+import static net.bexxx.tutorialmod.TutorialMod.MODID;
+
+public class SevenBallItem extends Item {
+    private final String tooltipAlt;
+    public SevenBallItem(Settings settings, String tooltipAlt) {
         super(settings);
+
+        this.tooltipAlt = tooltipAlt;
     }
 
     @Override
@@ -32,17 +37,13 @@ public class EightBallItem extends Item {
         return super.use(world, user, hand);
     }
 
-
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if (Screen.hasShiftDown()) {
-            tooltip.add(Text.literal("Rigth Click This Item to get a random Number").formatted(Formatting.AQUA));
+        if (Screen.hasAltDown()) {
+            tooltip.add(Text.translatable(tooltipAlt).formatted(Formatting.YELLOW));
         } else {
-            tooltip.add(Text.literal("Press Shift for more Information").formatted(Formatting.GREEN));
+            tooltip.add(Text.translatable("tooltip." + MODID + ".hold_alt").formatted(Formatting.DARK_RED));
         }
-
-
-        super.appendTooltip(stack, world, tooltip, context);
     }
 
     private void outputRandomNumber(PlayerEntity player) {
@@ -50,6 +51,6 @@ public class EightBallItem extends Item {
     }
 
     private int getRandomNumber() {
-        return Random.createLocal().nextInt(8);
+        return Random.createLocal().nextInt(7);
     }
 }

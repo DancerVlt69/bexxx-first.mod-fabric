@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.item.custom;
+package net.bexxx.tutorialmod.init.items.custom;
 
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
@@ -15,9 +15,12 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class SevenBallItem extends Item {
-    public SevenBallItem(Settings settings) {
+public class EightBallItem extends Item {
+    private final String tooltipShift;
+    public EightBallItem(Settings settings, String tooltipShift) {
         super(settings);
+
+        this.tooltipShift = tooltipShift;
     }
 
     @Override
@@ -32,17 +35,14 @@ public class SevenBallItem extends Item {
         return super.use(world, user, hand);
     }
 
-
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        if (Screen.hasAltDown()) {
-            tooltip.add(Text.literal("Funfact about this item originally it wasnt even supposed to be added but than i got so bored that i made like 15 recipes and added 5 more blocks to this mod").formatted(Formatting.YELLOW));
+        if (Screen.hasShiftDown()) {
+            tooltip.add(Text.translatable(tooltipShift).formatted(Formatting.AQUA));
         } else {
-            tooltip.add(Text.literal("Hold Alt for more Information").formatted(Formatting.DARK_RED));
+            tooltip.add(Text.translatable("tooltip.tutorialmod.hold_shift").formatted(Formatting.GREEN));
         }
-
-
-        super.appendTooltip(stack, world, tooltip, context);
+        // super.appendTooltip(stack, world, tooltip, context);
     }
 
     private void outputRandomNumber(PlayerEntity player) {
@@ -50,6 +50,6 @@ public class SevenBallItem extends Item {
     }
 
     private int getRandomNumber() {
-        return Random.createLocal().nextInt(7);
+        return Random.createLocal().nextInt(8);
     }
 }
