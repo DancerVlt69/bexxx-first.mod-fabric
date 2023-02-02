@@ -84,7 +84,6 @@ public abstract class SoapWaterFluid extends FlowableFluid{
         return ModFluids.SOAP_WATER_BLOCK.getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
     }
 
-
     @Override
     public boolean isStill(FluidState state) {
         return false;
