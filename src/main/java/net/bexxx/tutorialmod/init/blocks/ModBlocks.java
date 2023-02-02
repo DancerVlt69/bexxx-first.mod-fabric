@@ -128,7 +128,6 @@ public class ModBlocks {
                 });
     }
 
-
     public static void registerModBlocks() {
         TutorialMod.LOGGER.debug("Registering ModBlocks for " + MODID);
     }
