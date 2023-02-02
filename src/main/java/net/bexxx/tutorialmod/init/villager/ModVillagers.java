@@ -31,6 +31,9 @@ public class ModVillagers {
     public static final PointOfInterestType ENCHANTER_POI = registerPOI("enchanter_poi", Blocks.ENCHANTING_TABLE);
     public static final VillagerProfession ENCHANTER = registerProfession("enchanter",
             RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "enchanter_poi")));
+    public static final PointOfInterestType LAMP_POI = registerPOI("lamp_poi", Blocks.REDSTONE_BLOCK);
+    public static final VillagerProfession LAMPER = registerProfession("lamper",
+            RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "lamp_poi")));
 
 
 
@@ -136,6 +139,22 @@ public class ModVillagers {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.NETHER_STAR, 15),
                             new ItemStack(Items.ANCIENT_DEBRIS, 50),
+                            10, 2, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(LAMPER, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 15),
+                            new ItemStack(ModBlocks.TANZANITE_LAMP, 2),
+                            10, 2, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(LAMPER, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 15),
+                            new ItemStack(Blocks.REDSTONE_LAMP, 2),
                             10, 2, 0.02f
                     )));
                 });
