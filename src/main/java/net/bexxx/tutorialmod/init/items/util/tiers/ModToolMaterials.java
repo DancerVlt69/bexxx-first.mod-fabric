@@ -1,6 +1,6 @@
-package net.bexxx.tutorialmod.toolmaterial.custom;
+package net.bexxx.tutorialmod.init.items.util.tiers;
 
-import net.bexxx.tutorialmod.item.ModItems;
+import net.bexxx.tutorialmod.init.items.ModItems;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.util.Lazy;
@@ -9,13 +9,9 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    TANZANITE(5, 2200, 12.0F, 4.0F, 30, () -> {
-        return Ingredient.ofItems(ModItems.TANZANITE);
-    }),
+    TANZANITE(5, 2200, 12.0F, 4.0F, 30, () -> Ingredient.ofItems(ModItems.TANZANITE)),
 
-    OMEGA(7, 6100, 23.0F, 4.0F, 30, () -> {
-        return Ingredient.ofItems(ModItems.TANZANITE_SHARD_PIECE);
-    });
+    OMEGA(7, 6100, 23.0F, 4.0F, 30, () -> Ingredient.ofItems(ModItems.TANZANITE_SHARD_PIECE));
 
     private final int miningLevel;
     private final int itemDurability;
