@@ -1,14 +1,8 @@
-package net.bexxx.tutorialmod.item.custom;
+package net.bexxx.tutorialmod.init.items.custom;
 
 
-import net.minecraft.block.BlockState;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.util.Hand;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.World;
 
 public class OmegaPickaxeItem extends PickaxeItem {
 	private final int enchantability;
