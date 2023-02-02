@@ -48,6 +48,8 @@
   "tooltip.omega_pickaxe.shift": "The best Pickaxe you will ever get!",
 
   "tooltip.tutorialmod.seven_ball.alt": "Funfact about this item:'\u000a' Originally it wasn't even supposed to be added'\u000a' but then I got so bored that I made like 15 recipes'\u000a' and added 5 more blocks to this mod",
+  "tooltip.tutorialmod.eight_ball.shift": "Right Click This Item to get a random Number",
+
 
   "itemGroup.tutorialmod.tab1": "Tutorialmod",
   "itemGroup.tutorialmod.tab2": "Eight Ball",
