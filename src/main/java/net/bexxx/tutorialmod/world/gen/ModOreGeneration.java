@@ -1,25 +1,24 @@
 package net.bexxx.tutorialmod.world.gen;
 
-import net.bexxx.tutorialmod.world.feature.ModPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
+import net.bexxx.tutorialmod.world.feature.ModPlacedFeatures;
+import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.gen.GenerationStep;
+import net.minecraft.world.gen.feature.PlacedFeature;
+
 
 public class ModOreGeneration {
     public static void generateOres() {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.TANZANITE_ORE_PLACED.getKey().get());
-
-      BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
-    GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.NETHER_TANZANITE_ORE_PLACED.getKey().get());
-
+        BiomeModifications.addFeature(BiomeSelectors.foundInTheNether(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.NETHER_TANZANITE_ORE_PLACED.getKey().get());
         BiomeModifications.addFeature(BiomeSelectors.foundInTheEnd(),
-    GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.END_TANZANITE_ORE_PLACED.getKey().get());
-}
-
-
-
-
-
-
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.END_TANZANITE_ORE_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.OMEGA_BLOCK_PLACED.getKey().get());
+        BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeatures.RUBY_ORE_PLACED.getKey().get());
+    }
 }

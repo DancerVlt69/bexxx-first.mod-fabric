@@ -1,5 +1,4 @@
 package net.bexxx.tutorialmod.world.feature;
-
 import net.bexxx.tutorialmod.TutorialMod;
 import net.bexxx.tutorialmod.block.ModBlocks;
 import net.minecraft.block.Blocks;
@@ -19,6 +18,11 @@ public class ModConfiguredFeatures {
 
     public static final List<OreFeatureConfig.Target> END_TANZANITE_ORES = List.of(
             OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE), ModBlocks.ENDSTONE_TANZANITE_ORE.getDefaultState()));
+    public static final List<OreFeatureConfig.Target> OVERWORLD_GENERATED_BLOCK = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.OMEGA_BLOCK.getDefaultState()));
+    public static final List<OreFeatureConfig.Target> OVERWORLD_OTHER_ORES = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES, ModBlocks.RUBY_ORE.getDefaultState()));
+
 
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> TANZANITE_ORE =
@@ -29,6 +33,10 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> END_TANZANITE_ORE =
             ConfiguredFeatures.register("end_tanzanite_ore",Feature.ORE, new OreFeatureConfig(END_TANZANITE_ORES, 12));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> OMEGA_BLOCK =
+            ConfiguredFeatures.register("omega_block", Feature.ORE, new OreFeatureConfig(OVERWORLD_GENERATED_BLOCK, 5));
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> RUBY_ORE =
+            ConfiguredFeatures.register("ruby_ore", Feature.ORE, new OreFeatureConfig(OVERWORLD_OTHER_ORES, 9));
 
     public static void registerConfiguredFeatures() {
         TutorialMod.LOGGER.debug("Registering the ModConfiguredFeatures for " + TutorialMod.MODID);

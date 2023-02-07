@@ -2,6 +2,7 @@ package net.bexxx.tutorialmod.world.feature;
 
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.YOffset;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import net.minecraft.world.gen.feature.PlacedFeatures;
 import net.minecraft.world.gen.placementmodifier.*;
@@ -11,15 +12,21 @@ import java.util.List;
 public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> TANZANITE_ORE_PLACED = PlacedFeatures.register("tanzanite_ore_placed",
             ModConfiguredFeatures.TANZANITE_ORE, modifiersWithCount(9,
-                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-80), YOffset.fixed(80))));
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-100), YOffset.fixed(100))));
 
     public static final RegistryEntry<PlacedFeature> NETHER_TANZANITE_ORE_PLACED = PlacedFeatures.register("nether_tanzanite_ore_placed",
             ModConfiguredFeatures.NETHER_TANZANITE_ORE, modifiersWithCount(10,
-                    HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
 
     public static final RegistryEntry<PlacedFeature> END_TANZANITE_ORE_PLACED = PlacedFeatures.register("end_tanzanite_ore_placed",
             ModConfiguredFeatures.END_TANZANITE_ORE, modifiersWithCount(10,
-                    HeightRangePlacementModifier.uniform(YOffset.fixed(-80), YOffset.fixed(80))));
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
+    public static final RegistryEntry<PlacedFeature> OMEGA_BLOCK_PLACED = PlacedFeatures.register("omega_block_placed",
+            ModConfiguredFeatures.OMEGA_BLOCK, modifiersWithCount(4,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-120), YOffset.fixed(120))));
+    public static final RegistryEntry<PlacedFeature> RUBY_ORE_PLACED = PlacedFeatures.register("ruby_ore_placed",
+            ModConfiguredFeatures.RUBY_ORE, modifiersWithCount(12,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-100), YOffset.fixed(100))));
 
 
 

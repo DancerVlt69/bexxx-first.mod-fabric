@@ -1,9 +1,7 @@
 package net.bexxx.tutorialmod.item;
 
 import net.bexxx.tutorialmod.block.ModBlocks;
-import net.bexxx.tutorialmod.item.custom.EightBallItem;
-import net.bexxx.tutorialmod.item.custom.OmegaPickaxeItem;
-import net.bexxx.tutorialmod.item.custom.SevenBallItem;
+import net.bexxx.tutorialmod.item.custom.*;
 import net.bexxx.tutorialmod.tab.ModItemGroup;
 import net.bexxx.tutorialmod.toolmaterial.custom.ModToolMaterials;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -56,8 +54,18 @@ public class ModItems {
                     .food(new FoodComponent.Builder().hunger(4).saturationModifier(4f).alwaysEdible().build())));
 public static final Item RUBY = registerItem("ruby",
         new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
-
-
+    public static final Item OMEGA_AXE = registerItem("omega_axe",
+            new NewAxeToolItem(ModToolMaterials.OMEGA, 2, 10.0F, new Item.Settings()
+                    .group(ModItemGroup.OMEGA).fireproof()));
+public static final Item OMEGA_SWORD = registerItem("omega_sword",
+        new NewSwordToolItem(ModToolMaterials.OMEGA, 20, 10f, new Item.Settings()
+                .group(ModItemGroup.OMEGA).fireproof()));
+    public static final Item OMEGA_HOE = registerItem("omega_hoe",
+            new NewHoeItemTool(ModToolMaterials.OMEGA, 2, 3f, new Item.Settings()
+                    .group(ModItemGroup.OMEGA).fireproof()));
+    public static final Item OMEGA_SHOVEL = registerItem("omega_shovel",
+    new NewShovelToolItem(ModToolMaterials.OMEGA, 2, 3f, new Item.Settings()
+            .group(ModItemGroup.OMEGA).fireproof()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);

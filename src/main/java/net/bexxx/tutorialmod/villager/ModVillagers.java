@@ -24,8 +24,6 @@ public class ModVillagers {
     public static final PointOfInterestType JUMP_POI = registerPOI("jump_poi", ModBlocks.JUMP_BLOCK);
     public static final VillagerProfession JUMP_MASTER = registerProfession("jumpmaster",
         RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "jump_poi")));
-
-
     public static final PointOfInterestType TANZANITE_POI = registerPOI("tanzanite_poi", ModBlocks.TANZANITE_BLOCK);
     public static final VillagerProfession TANZANITE_TRADER = registerProfession("tanzanite_trader",
             RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "tanzanite_poi")));
@@ -35,6 +33,9 @@ public class ModVillagers {
     public static final PointOfInterestType LAMP_POI = registerPOI("lamp_poi", Blocks.REDSTONE_BLOCK);
     public static final VillagerProfession LAMPER = registerProfession("lamper",
             RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "lamp_poi")));
+    public static final PointOfInterestType OMEGA_POI = registerPOI("omega_poi", ModBlocks.OMEGA_BLOCK);
+    public static final VillagerProfession OMEGA_ARMORIST = registerProfession("omega_armorist",
+            RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "omega_poi")));
 
 
 
@@ -151,11 +152,44 @@ public class ModVillagers {
                             10, 2, 0.02f
                     )));
                 });
-        TradeOfferHelper.registerVillagerOffers(LAMPER, 1,
+        TradeOfferHelper.registerVillagerOffers(OMEGA_ARMORIST, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 30),
+                            new ItemStack(ModItems.OMEGA_PICKAXE),
+                            5, 2, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(OMEGA_ARMORIST, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 40),
+                            new ItemStack(ModItems.OMEGA_SWORD),
+                            10, 2, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(OMEGA_ARMORIST, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 25),
+                            new ItemStack(ModItems.OMEGA_SHOVEL),
+                            10, 2, 0.02f
+                    )));
+                });
+        TradeOfferHelper.registerVillagerOffers(OMEGA_ARMORIST, 1,
                 factories -> {
                     factories.add(((entity, random) -> new TradeOffer(
                             new ItemStack(Items.EMERALD, 15),
-                            new ItemStack(Blocks.REDSTONE_LAMP, 2),
+                            new ItemStack(ModItems.OMEGA_HOE),
+                            10, 2, 0.02f
+                    )));
+                });
+
+        TradeOfferHelper.registerVillagerOffers(OMEGA_ARMORIST, 1,
+                factories -> {
+                    factories.add(((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD, 33),
+                            new ItemStack(ModItems.OMEGA_AXE),
                             10, 2, 0.02f
                     )));
                 });

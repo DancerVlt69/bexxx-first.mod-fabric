@@ -13,7 +13,6 @@
   "item.tutorialmod.tanzanite_pickaxe": "Tanzanite Pickaxe",
   "item.tutorialmod.tanzanite_shard": "Tanzanite Shard",
   "item.tutorialmod.tanzanite_shard_piece": "Tanzanite Shard Piece",
-  "tutorialmod.toolmaterial.custom.omega": "Omega",
   "item.tutorialmod.omega_pickaxe": "Omega Pickaxe",
   "item.tutorialmod.raw_ruby": "Raw Ruby",
   "block.tutorialmod.ruby_ore": "Ruby Ore",
@@ -25,6 +24,14 @@
   "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
   "block.tutorialmod.soap_water": "Soap Water",
   "item.tutorialmod.ruby": "Ruby",
+  "item.tutorialmod.omega_axe": "Omega Axe",
+  "item.tutorialmod.omega_sword": "Omega Sword",
+  "item.tutorialmod.omega_hoe": "Omega Hoe",
+  "item.tutorialmod.omega_shovel": "Omega shovel",
+  "item.tutorialmod.lemonade_water_bucket": "Lemonade Water Bucket",
+  "block.tutorialmod.lemonade_water": "Lemonade Water",
+  "block.tutorialmod.omega_block": "Omega Block",
+  "block.tutorialmod.gem_infusing_station": "Gem Infusing Station",
 
 
   "itemGroup.tutorialmod.tab1": "Tutorialmod",
@@ -35,7 +42,10 @@
 
   "entity.minecraft.villager.jumpmaster": "Jump Master",
   "entity.minecraft.villager.tanzanite_trader": "Tanzanite trader",
-  "entity.minecraft.villager.enchanter": "Enchanter"
+  "entity.minecraft.villager.enchanter": "Enchanter",
+  "entity.minecraft.villager.lamper": "Lamper",
+  "entity.minecraft.villager.omega_armorist": "Omega Armorer"
+
 
 
 }

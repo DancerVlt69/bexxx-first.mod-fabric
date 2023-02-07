@@ -2,9 +2,12 @@ package net.bexxx.tutorialmod;
 
 import net.bexxx.tutorialmod.block.ModBlocks;
 
+import net.bexxx.tutorialmod.block.entity.ModBlockEntities;
 import net.bexxx.tutorialmod.fluid.ModFluids;
 import net.bexxx.tutorialmod.item.ModItems;
 import net.bexxx.tutorialmod.painting.ModPaintings;
+import net.bexxx.tutorialmod.recipe.ModRecipes;
+import net.bexxx.tutorialmod.screen.ModScreenHandlers;
 import net.bexxx.tutorialmod.util.ModLootTableModifiers;
 import net.bexxx.tutorialmod.villager.ModVillagers;
 import net.bexxx.tutorialmod.world.feature.ModConfiguredFeatures;
@@ -28,9 +31,12 @@ public class TutorialMod implements ModInitializer {
 		ModOreGeneration.generateOres();
 		ModLootTableModifiers.modifyLootTables();
 		ModFluids.register();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerAllScreenHandlers();
+		ModRecipes.registerRecipes();
 	}
 }
 
-// TODO ORGANIZE FOLDERS
+
 
 
