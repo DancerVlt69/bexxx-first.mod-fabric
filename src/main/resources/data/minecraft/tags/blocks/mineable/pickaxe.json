@@ -6,6 +6,17 @@
     "tutorialmod:deepslate_tanzanite_ore",
     "tutorialmod:netherrack_tanzanite_ore",
     "tutorialmod:endstone_tanzanite_ore",
-    "tutorialmod:ruby_ore"
+    "tutorialmod:ruby_ore",
+    "tutorialmod:omega_block",
+    "tutorialmod:black_opal_ore",
+    "tutorialmod:black_opal_block",
+    "tutorialmod:deepslate_black_opal_ore",
+    "tutorialmod:netherrack_black_opal_ore",
+    "tutorialmod:endstone_black_opal_ore",
+    "tutorialmod:citrin_ore",
+    "tutorialmod:citrin_block",
+    "tutorialmod:deepslate_citrin_ore",
+    "tutorialmod:netherrack_citrin_ore",
+    "tutorialmod:endstone_citrin_ore"
   ]
 }

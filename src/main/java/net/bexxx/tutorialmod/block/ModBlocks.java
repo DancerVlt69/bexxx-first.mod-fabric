@@ -49,6 +49,26 @@ public class ModBlocks {
                     .strength(4f).requiresTool().nonOpaque()), ModItemGroup.TANZANITE);
     public static final Block OMEGA_BLOCK = registerBlock("omega_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(2)), ModItemGroup.OMEGA);
+    public static final Block DEEPSLATE_BLACK_OPAL_ORE = registerBlock("deepslate_black_opal_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.OPAL);
+    public static final Block BLACK_OPAL_ORE = registerBlock("black_opal_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.OPAL);
+    public static final Block NETHERRACK_BLACK_OPAL_ORE = registerBlock("netherrack_black_opal_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.OPAL);
+    public static final Block ENDSTONE_BLACK_OPAL_ORE = registerBlock("endstone_black_opal_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.OPAL);
+    public static final Block BLACK_OPAL_BLOCK = registerBlock("black_opal_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.OPAL);
+    public static final Block CITRINE_ORE = registerBlock("citrine_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.CITRINE);
+    public static final Block DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.CITRINE);
+    public static final Block NETHERRACK_CITRINE_ORE = registerBlock("netherrack_citrine_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.CITRINE);
+    public static final Block ENDSTONE_CITRINE_ORE = registerBlock("endstone_citrine_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.CITRINE);
+    public static final Block CITRINE_BLOCK = registerBlock("citrine_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2)), ModItemGroup.CITRINE);
     
 
 
@@ -65,13 +85,6 @@ public class ModBlocks {
         return Registry.register(Registry.ITEM, new Identifier(TutorialMod.MODID, name),
                 new BlockItem(block, new FabricItemSettings().group(tab)));
     }
-
-
-
-
-
-
-
     public static void registerModBlocks() {
         TutorialMod.LOGGER.debug("Registering ModBlocks for " + TutorialMod.MODID);
     }

@@ -20,7 +20,7 @@ public class OmegaPickaxeItem extends PickaxeItem {
 
 	@Override
 	public int getEnchantability() {
-		return enchantability; // return 50;
+		return enchantability; //return 50;
 	}
 
 

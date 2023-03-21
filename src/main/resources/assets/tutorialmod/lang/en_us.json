@@ -32,6 +32,20 @@
   "block.tutorialmod.lemonade_water": "Lemonade Water",
   "block.tutorialmod.omega_block": "Omega Block",
   "block.tutorialmod.gem_infusing_station": "Gem Infusing Station",
+  "block.tutorialmod.black_opal_block": "Black Opal Block",
+  "block.tutorialmod.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
+  "block.tutorialmod.black_opal_ore": "Black Opal Ore",
+  "block.tutorialmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "block.tutorialmod.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.tutorialmod.endstone_black_opal_ore": "Endstone Black opal Ore",
+  "item.tutorialmod.citrine": "Citrine",
+  "item.tutorialmod.raw_citrine": "Raw citrine",
+  "block.tutorialmod.citrine_block": "Citrine Block",
+  "block.tutorialmod.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.tutorialmod.citrine_ore": "Citrine Ore",
+  "item.tutorialmod.raw_black_opal": "Raw Black Opal",
+  "item.tutorialmod.black_opal": "Black Opal",
+
 
 
   "itemGroup.tutorialmod.tab1": "Tutorialmod",
@@ -39,6 +53,8 @@
   "itemGroup.tutorialmod.tab3": "Tanzanite Tools",
   "itemGroup.tutorialmod.tab4": "Omega",
   "itemGroup.tutorialmod.tab5": "Plants",
+  "itemGroup.tutorialmod.tab6": "Opal",
+  "itemGroup.tutorialmod.tab7": "Citrine",
 
   "entity.minecraft.villager.jumpmaster": "Jump Master",
   "entity.minecraft.villager.tanzanite_trader": "Tanzanite trader",

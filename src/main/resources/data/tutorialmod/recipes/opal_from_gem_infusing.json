@@ -1,0 +1,11 @@
+{
+  "type": "tutorialmod:gem_infusing",
+  "ingredients": [
+    {
+      "item": "tutorialmod:raw_black_opal"
+    }
+  ],
+  "output": {
+    "item": "tutorialmod:black_opal"
+  }
+}

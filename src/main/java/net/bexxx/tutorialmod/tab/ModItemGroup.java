@@ -20,4 +20,8 @@ public class ModItemGroup {
 			new Identifier(MODID, "tab4"), () -> new ItemStack(ModItems.OMEGA_PICKAXE));
 	public static final ItemGroup PLANTS = FabricItemGroupBuilder.build(
 			new Identifier(MODID, "tab5"), () -> new ItemStack(ModItems.EGGPLANT));
+	public static final ItemGroup OPAL = FabricItemGroupBuilder.build(
+			new Identifier(MODID, "tab6"), () -> new ItemStack(ModItems.BLACK_OPAL));
+	public static final ItemGroup CITRINE = FabricItemGroupBuilder.build(
+			new Identifier(MODID, "tab7"), () -> new ItemStack(ModItems.CITRINE));
 }

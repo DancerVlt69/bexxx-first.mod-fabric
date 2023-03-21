@@ -27,6 +27,28 @@ public class ModPlacedFeatures {
     public static final RegistryEntry<PlacedFeature> RUBY_ORE_PLACED = PlacedFeatures.register("ruby_ore_placed",
             ModConfiguredFeatures.RUBY_ORE, modifiersWithCount(12,
                     HeightRangePlacementModifier.trapezoid(YOffset.fixed(-100), YOffset.fixed(100))));
+    public static final RegistryEntry<PlacedFeature> OPAL_ORE_PLACED = PlacedFeatures.register("black_opal_ore_placed",
+            ModConfiguredFeatures.OVERWORLD_OPAL_ORE, modifiersWithCount(9,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-100), YOffset.fixed(100))));
+
+    public static final RegistryEntry<PlacedFeature> NETHER_OPAL_ORE_PLACED = PlacedFeatures.register("nether_opal_ore_placed",
+            ModConfiguredFeatures.NETHER_OPAL_ORE, modifiersWithCount(10,
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
+
+    public static final RegistryEntry<PlacedFeature> END_OPAL_ORE_PLACED = PlacedFeatures.register("end_opal_ore_placed",
+            ModConfiguredFeatures.END_OPAL_ORE, modifiersWithCount(10,
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
+    public static final RegistryEntry<PlacedFeature> CITRINE_ORE_PLACED = PlacedFeatures.register("citrine_ore_placed",
+            ModConfiguredFeatures.CITRINE_ORE, modifiersWithCount(9,
+                    HeightRangePlacementModifier.trapezoid(YOffset.fixed(-100), YOffset.fixed(100))));
+
+    public static final RegistryEntry<PlacedFeature> NETHER_CITRINE_ORE_PLACED = PlacedFeatures.register("nether_citrine_ore_placed",
+            ModConfiguredFeatures.NETHER_CITRINE_ORE, modifiersWithCount(10,
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
+
+    public static final RegistryEntry<PlacedFeature> END_CITRINE_ORE_PLACED = PlacedFeatures.register("end_citrine_ore_placed",
+            ModConfiguredFeatures.END_CITRINE_ORE, modifiersWithCount(10,
+                    HeightRangePlacementModifier.uniform(YOffset.fixed(-100), YOffset.fixed(100))));
 
 
 

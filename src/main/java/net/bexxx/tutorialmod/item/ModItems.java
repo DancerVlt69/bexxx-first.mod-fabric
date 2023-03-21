@@ -45,7 +45,6 @@ public class ModItems {
     }
     public static final Item RAW_RUBY = registerItem("raw_ruby",
         new Item(new FabricItemSettings().group(ModItemGroup.TANZANITE)));
-
     public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
             new AliasedBlockItem(ModBlocks.EGGPLANT_CROP,
                     new FabricItemSettings().group(ModItemGroup.PLANTS)));
@@ -66,6 +65,15 @@ public static final Item OMEGA_SWORD = registerItem("omega_sword",
     public static final Item OMEGA_SHOVEL = registerItem("omega_shovel",
     new NewShovelToolItem(ModToolMaterials.OMEGA, 2, 3f, new Item.Settings()
             .group(ModItemGroup.OMEGA).fireproof()));
+    public static final Item BLACK_OPAL = registerItem("black_opal",
+            new Item(new FabricItemSettings().group(ModItemGroup.OPAL)));
+    public static final Item RAW_BLACK_OPAL = registerItem("raw_black_opal",
+            new Item(new FabricItemSettings().group(ModItemGroup.OPAL)));
+    public static final Item CITRINE = registerItem("citrine",
+            new Item(new FabricItemSettings().group(ModItemGroup.CITRINE)));
+    public static final Item RAW_CITRINE = registerItem("raw_citrine",
+            new Item(new FabricItemSettings().group(ModItemGroup.CITRINE)));
+
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MODID, name), item);
