@@ -13,6 +13,7 @@ public class ModTags {
 	public static class ModBlockTag {
 
 		public static final TagKey<Block> NEEDS_NETHERITE_TOOL = ModBlockTag.of("needs_netherite_tool");
+		public static final TagKey<Block> NEEDS_TANZANITE_TOOL = ModBlockTag.of("needs_tanzanite_tool");
 
 
 		private static TagKey<Block> of(String modBlockTagName) {
