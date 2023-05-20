@@ -1,6 +1,7 @@
 package net.bexxx.tutorialmod.init.items;
 
 import net.bexxx.tutorialmod.init.blocks.ModBlocks;
+import net.bexxx.tutorialmod.init.entities.ModLivingEntityTypes;
 import net.bexxx.tutorialmod.init.items.custom.EightBallItem;
 import net.bexxx.tutorialmod.init.items.custom.OmegaPickaxeItem;
 import net.bexxx.tutorialmod.init.items.custom.SevenBallItem;
@@ -8,10 +9,7 @@ import net.bexxx.tutorialmod.init.items.util.tiers.ModToolMaterials;
 import net.bexxx.tutorialmod.init.util.tab.ModItemGroup;
 import net.bexxx.tutorialmod.init.util.tolltips.ShowToolTips;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.AliasedBlockItem;
-import net.minecraft.item.FoodComponent;
-import net.minecraft.item.Item;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -71,6 +69,12 @@ public class ModItems {
     public static final Item EGGPLANT_SEEDS = registerItem("eggplant_seeds",
             new AliasedBlockItem(ModBlocks.EGGPLANT_CROP, new FabricItemSettings().group(ModItemGroup.PLANTS)));
 
+
+	/** Entity-Spawn-Eggs */
+
+	public static final Item ISOPOD_01_SPAWN_EGG = registerItem("isopod_01_spawn_egg",
+			new SpawnEggItem(ModLivingEntityTypes.ISOPOD_YELLOW_BLACK,0xFF9D2C, 0x523C4E,
+					new FabricItemSettings().group(ItemGroup.MISC)));
 
     /** registering the Items */
     private static Item registerItem(String name, Item item) {
