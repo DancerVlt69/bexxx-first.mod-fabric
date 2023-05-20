@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "cookingtime": 125,
   "experience": 1.0,
-  "group": "tanzenite",
+  "group": "tanzanite",
   "ingredient": {
     "item": "tutorialmod:raw_tanzanite"
   },
