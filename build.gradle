@@ -16,6 +16,11 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+
+    maven { name = "CurseMaven"; url "https://cursemaven.com"; content { includeGroup "curse.maven" }
+    }
+
+    // maven { name = 'GeckLib'; url "https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/" }
 }
 
 dependencies {
@@ -31,6 +36,18 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
+
+    // JEI, Jade & Inventory Hud+
+    modImplementation ("curse.maven:jei-${jeiVersionCF}")
+    modImplementation ("curse.maven:jade-${jadeVersionCF}")
+    modImplementation ("curse.maven:invhud-${inventoryHudCF}")
+
+    // GeckoLib
+    modImplementation "curse.maven:geckolib-fabric-${geckoLibVersioCF}" // 1.19:3.1.41'
+
+    // Xaero's World- & Mini-Map
+    modImplementation "curse.maven:xaeroMiniMap-fabric-${xaerosMiniMapCF}"
+    modImplementation "curse.maven:xaeroWorldMap-fabric-${xaerosWorldMapCF}"
 }
 
 processResources {
