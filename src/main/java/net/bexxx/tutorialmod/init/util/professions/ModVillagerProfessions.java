@@ -1,4 +1,4 @@
-package net.bexxx.tutorialmod.init.villager;
+package net.bexxx.tutorialmod.init.util.professions;
 
 import com.google.common.collect.ImmutableSet;
 import net.bexxx.tutorialmod.TutorialMod;
@@ -19,7 +19,7 @@ import net.minecraft.village.TradeOffer;
 import net.minecraft.village.VillagerProfession;
 import net.minecraft.world.poi.PointOfInterestType;
 
-public class ModVillagers {
+public class ModVillagerProfessions {
     public static final PointOfInterestType JUMP_POI = registerPOI("jump_poi", ModBlocks.JUMP_BLOCK);
     public static final VillagerProfession JUMP_MASTER = registerProfession("jumpmaster",
         RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(TutorialMod.MODID, "jump_poi")));
@@ -47,7 +47,7 @@ public class ModVillagers {
         return PointOfInterestHelper.register(new Identifier(TutorialMod.MODID, name),
                 1, 1, ImmutableSet.copyOf(block.getStateManager().getStates()));
     }
-    public static void registerVillagers() {
+    public static void registerVillagerProfessions() {
         TutorialMod.LOGGER.debug("Registering Villagers For " + TutorialMod.MODID);
     }
 
@@ -159,10 +159,6 @@ public class ModVillagers {
                     )));
                 });
         }
-
-
-
-
     }
 
 
