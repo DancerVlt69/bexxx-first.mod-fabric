@@ -12,23 +12,20 @@
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-
   "license": "MIT License",
   "icon": "assets/tutorialmod/textures/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "client": [
-    "net.bexxx.tutorialmod.TutorialModClient"
+	    "net.bexxx.tutorialmod.TutorialModClient"
     ],
     "main": [
-      "net.bexxx.tutorialmod.TutorialMod"
+	    "net.bexxx.tutorialmod.TutorialMod"
     ]
   },
   "mixins": [
     "tutorialmod.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.19",
     "fabric-api": "*",
