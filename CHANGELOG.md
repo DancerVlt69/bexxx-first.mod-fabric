@@ -1,4 +1,14 @@
 ## Changelog
+___
+### *v0.6.0 / 2023/05/21*
+* ***changes:***
+  * merge older version (Feb./Mrz. 2023) from the original repository
+  * into the latest version.
+* ***fixes:***
+  * liquid types has used the wrong definition/methods
+* ***updated***
+  * sorting entries in the localization files
+  * reordering directory structure
 _____
 ### *v0.5.1 | 2023/05/20*
 * ***added:***
