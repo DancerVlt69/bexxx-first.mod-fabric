@@ -1,8 +1,10 @@
 {
   "replace": false,
   "values": [
-	  "tutorialmod:ruby_block",
+	  "tutorialmod:citrine_block",
 	  "tutorialmod:tanzanite_block",
-	  "tutorialmod:tanzanite_lamp"
+	  "tutorialmod:tanzanite_lamp",
+	  "tutorialmod:ruby_block",
+	  "tutorialmod:black_opal_block"
   ]
 }
