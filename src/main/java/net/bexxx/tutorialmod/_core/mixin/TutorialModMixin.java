@@ -10,7 +10,7 @@ import static net.bexxx.tutorialmod.TutorialMod.LOGGER;
 
 @Mixin(TitleScreen.class)
 
-public class ExampleMixin {
+public class TutorialModMixin {
 
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) { LOGGER.info("This line is printed by an example mod mixin!"); }
