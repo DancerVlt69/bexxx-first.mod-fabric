@@ -1,64 +1,93 @@
 {
-  "block.tutorialmod.tanzanite_block":          "Block of Tanzanite",
-  "block.tutorialmod.tanzanite_ore":            "Tanzanite ore",
-  "block.tutorialmod.deepslate_tanzanite_ore":  "Deepslate Tanzanite Ore",
-  "block.tutorialmod.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
-  "block.tutorialmod.endstone_tanzanite_ore":   "Endstone Tanzanite Ore",
+	"block.tutorialmod.citrine_ore":            "Citrine Ore",
+	"block.tutorialmod.citrine_block":          "Citrine Block",
+	"block.tutorialmod.deepslate_citrine_ore":  "Deepslate Citrine Ore",
+	"block.tutorialmod.netherrack_citrine_ore": "Netherrack Citrine Ore",
+	"block.tutorialmod.endstone_citrine_ore":   "Endstone Citrine Ore",
 
-  "block.tutorialmod.ruby_block":           "Ruby Block",
-  "block.tutorialmod.ruby_ore":             "Ruby Ore",
-  "block.tutorialmod.deepslate_ruby_ore":   "Deepslate Ruby Ore",
-  "block.tutorialmod.netherrack_ruby_ore":  "Netherrack Ruby Ore",
-  "block.tutorialmod.endstone_ruby_ore":    "Endstone Ruby Ore",
+	"block.tutorialmod.tanzanite_ore":            "Tanzanite ore",
+	"block.tutorialmod.tanzanite_block":          "Block of Tanzanite",
+	"block.tutorialmod.deepslate_tanzanite_ore":  "Deepslate Tanzanite Ore",
+	"block.tutorialmod.netherrack_tanzanite_ore": "Netherrack Tanzanite Ore",
+	"block.tutorialmod.endstone_tanzanite_ore":   "Endstone Tanzanite Ore",
 
-  "block.tutorialmod.jump_block": "Jump Block",
+	"block.tutorialmod.ruby_block":           "Ruby Block",
+	"block.tutorialmod.ruby_ore":             "Ruby Ore",
+	"block.tutorialmod.deepslate_ruby_ore":   "Deepslate Ruby Ore",
+	"block.tutorialmod.netherrack_ruby_ore":  "Netherrack Ruby Ore",
+	"block.tutorialmod.endstone_ruby_ore":    "Endstone Ruby Ore",
 
-  "block.tutorialmod.tanzanite_lamp": "Tanzanite Lamp",
+	"block.tutorialmod.black_opal_ore":           "Black Opal Ore",
+	"block.tutorialmod.black_opal_block":         "Black Opal Block",
+	"block.tutorialmod.deepslate_black_opal_ore": "Deepslate Black Opal Ore",
+	"block.tutorialmod.endstone_black_opal_ore":  "Endstone Black opal Ore",
 
-  "block.tutorialmod.eggplant_crop": "Eggplant Crop",
+	"block.tutorialmod.tanzanite_lamp": "Tanzanite Lamp",
+	"block.tutorialmod.omega_block":    "Omega Block",
 
-  "block.tutorialmod.soap_water": "Soap Water",
+	"block.tutorialmod.gem_infusing_station": "Gem Infusing Station",
+	"block.tutorialmod.jump_block":           "Jump Block",
 
-  "item.tutorialmod.tanzanite":     "Tanzanite",
-  "item.tutorialmod.raw_tanzanite": "Raw Tanzanite",
+	"block.tutorialmod.eggplant_crop": "Eggplant Crop",
 
-  "item.tutorialmod.raw_ruby":  "Raw Ruby",
-  "item.tutorialmod.ruby":      "Rubin",
+	"block.tutorialmod.soap_water":     "Soap Water",
+	"block.tutorialmod.lemonade_water": "Lemonade Water",
 
-  "item.tutorialmod.tanzanite_shard":       "Tanzanite Shard",
-  "item.tutorialmod.tanzanite_shard_piece": "Tanzanite Shard Piece",
+	"item.tutorialmod.raw_citrine":     "Raw Citrine",
+	"item.tutorialmod.citrine":         "Citrine",
+	"item.tutorialmod.raw_tanzanite": 	"Raw Tanzanite",
+	"item.tutorialmod.tanzanite":     	"Tanzanite",
+ 	"item.tutorialmod.raw_ruby":  		"Raw Ruby",
+	"item.tutorialmod.ruby":      		"Ruby",
+	"item.tutorialmod.raw_black_opal":	"Raw Black Opal",
+	"item.tutorialmod.black_opal":    	"Black Opal",
 
-  "item.tutorialmod.tanzanite_pickaxe": "Tanzanite Pickaxe",
-  "item.tutorialmod.omega_pickaxe": "Omega Pickaxe",
+	"item.tutorialmod.tanzanite_pickaxe": "Tanzanite Pickaxe",
 
-  "item.tutorialmod.eight_ball":        "Magic Eight Ball",
-  "item.tutorialmod.eight_ball_shard":  "Magic Eight Ball shard",
-  "item.tutorialmod.seven_ball":        "Magic SevenBall",
-  "item.tutorialmod.seven_ball_shard":  "Magic SevenBall Shard",
+	"item.tutorialmod.omega_axe":     "Omega Axe",
+	"item.tutorialmod.omega_hoe":     "Omega Hoe",
+	"item.tutorialmod.omega_pickaxe": "Omega Pickaxe",
+	"item.tutorialmod.omega_shovel":  "Omega Shovel",
+	
+	"item.tutorialmod.omega_sword":   "Omega Sword",
+	
+	"item.tutorialmod.tanzanite_shard":       "Tanzanite Shard",
+	"item.tutorialmod.tanzanite_shard_piece": "Tanzanite Shard Piece",
+	
+	"item.tutorialmod.eight_ball":       "Magic Eight Ball",
+	"item.tutorialmod.eight_ball_shard": "Magic Eight Ball Shard",
+	"item.tutorialmod.seven_ball":       "Magic SevenBall",
+	"item.tutorialmod.seven_ball_shard": "Magic SevenBall Shard",
 
-  "item.tutorialmod.eggplant":        "Eggplant",
-  "item.tutorialmod.eggplant_seeds":  "Eggplant Seeds",
+	"item.tutorialmod.eggplant":       "Eggplant",
+	"item.tutorialmod.eggplant_seeds": "Eggplant Seeds",
+	
+	"item.tutorialmod.lemonade_water_bucket": "Lemonade Water Bucket",
+	"item.tutorialmod.soap_water_bucket":	  "Soap Water Bucket",
 
-  "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
+	"itemGroup.tutorialmod.tab1": "Tutorialmod",
+	"itemGroup.tutorialmod.tab2": "Eight Ball",
+	"itemGroup.tutorialmod.tab3": "Tanzanite Tools",
+	"itemGroup.tutorialmod.tab4": "Citrine",
+	"itemGroup.tutorialmod.tab5": "Opal",
+	"itemGroup.tutorialmod.tab6": "Omega",
+	"itemGroup.tutorialmod.tab7": "Plants",
 
-  "tooltip.tutorialmod.hold_shift":   "Hold Shift for Tips",
-  "tooltip.tutorialmod.hold_ctrl":    "Hold Ctrl for Infos",
-  "tooltip.tutorialmod.hold_alt":     "Hold Alt for Hints",
+	"tooltip.tutorialmod.hold_shift": "Hold Shift for Tips",
+	"tooltip.tutorialmod.hold_ctrl":  "Hold Ctrl for Infos",
+	"tooltip.tutorialmod.hold_alt":   "Hold Alt for Hints",
 
-  "tooltip.omega_pickaxe.shift": "The best Pickaxe you will ever get!",
+	"tooltip.omega_pickaxe.shift": "Maybe the best Pickaxe you've ever get!",
 
-  "tooltip.tutorialmod.seven_ball.alt": "Funfact about this item:'\u000a' Originally it wasn't even supposed to be added'\u000a' but then I got so bored that I made like 15 recipes'\u000a' and added 5 more blocks to this mod",
-  "tooltip.tutorialmod.eight_ball.shift": "Right Click This Item to get a random Number",
+	"tooltip.tutorialmod.seven_ball.alt1": 	"Funfact about this item:",
+	"tooltip.tutorialmod.seven_ball.alt2": 	"Originally it wasn't even supposed to be added",
+	"tooltip.tutorialmod.seven_ball.alt3": 	"but then I got so bored that I made like 15 recipes",
+	"tooltip.tutorialmod.seven_ball.alt4": 	"and added 5 more blocks to this Mod",
+	"tooltip.tutorialmod.eight_ball.shift": "Right click this Item to get a random Number",
 
-
-  "itemGroup.tutorialmod.tab1": "Tutorialmod",
-  "itemGroup.tutorialmod.tab2": "Eight Ball",
-  "itemGroup.tutorialmod.tab3": "Tanzanite Tools",
-  "itemGroup.tutorialmod.tab4": "Omega",
-  "itemGroup.tutorialmod.tab5": "Plants",
-
-  "entity.minecraft.villager.jumpmaster":       "Jump Master",
-  "entity.minecraft.villager.tanzanite_trader": "Tanzanite Trader",
-  "entity.minecraft.villager.enchanter":        "Enchanter"
-
+  	"entity.minecraft.villager.jumpmaster":       "Jump Master",
+  	"entity.minecraft.villager.tanzanite_trader": "Tanzanite Trader",
+  	"entity.minecraft.villager.enchanter":        "Enchanter",
+	"entity.minecraft.villager.lamper":           "Lamper",
+  	"entity.minecraft.villager.omega_armorist":   "Omega Armorer"
 }

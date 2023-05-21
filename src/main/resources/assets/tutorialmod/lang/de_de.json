@@ -1,4 +1,10 @@
 {
+  "block.tutorialmod.citrine_ore":            "Zitrinerz",
+  "block.tutorialmod.citrine_block":          "Zitrinblock",
+  "block.tutorialmod.deepslate_citrine_ore":  "Tiefenschiefer Zitrinerz",
+  "block.tutorialmod.netherrack_citrine_ore": "Netherrack Zitrinerz",
+  "block.tutorialmod.endstone_citrine_ore":   "Endstein Zitrinerz",
+
   "block.tutorialmod.tanzanite_block":          "Tansanitblock",
   "block.tutorialmod.tanzanite_ore":            "Tansaniterz",
   "block.tutorialmod.deepslate_tanzanite_ore":  "Tiefenschiefer Tansaniterz",
@@ -11,53 +17,77 @@
   "block.tutorialmod.netherrack_ruby_ore":  "Netherrack Rubinerz",
   "block.tutorialmod.endstone_ruby_ore":    "Endstein Rubinerz",
 
-  "block.tutorialmod.jump_block": "Jump Block",
+  "block.tutorialmod.black_opal_ore":           "Schwarz-Opalerz",
+  "block.tutorialmod.black_opal_block":         "Schwarz-Opalerzblock",
+  "block.tutorialmod.deepslate_black_opal_ore": "Tiefenschiefer Schwarz-Opalerz",
+  "block.tutorialmod.endstone_black_opal_ore":  "Endstein Schwarz-Opalerz",
 
   "block.tutorialmod.tanzanite_lamp": "Tansanitlampe",
+  "block.tutorialmod.omega_block":    "Omega Block",
 
+  "block.tutorialmod.gem_infusing_station": "Erz-Infusing Station",
+  "block.tutorialmod.jump_block":           "Jump-Block",
+  
   "block.tutorialmod.eggplant_crop": "Aubergine",
 
-  "block.tutorialmod.soap_water": "Soap Water",
+  "block.tutorialmod.soap_water":     "Wassersuppe",
+  "block.tutorialmod.lemonade_water": "Limonade",
 
-  "item.tutorialmod.tanzanite":     "Tansanit",
-  "item.tutorialmod.raw_tanzanite": "Rohes Tansanit",
+  "item.tutorialmod.raw_citrine":     "Unbehandeltes Zitrin",
+  "item.tutorialmod.citrine":         "Zitrin",
+  "item.tutorialmod.raw_tanzanite":   "Unbehandeltes Tansanit",
+  "item.tutorialmod.tanzanite":       "Tansanit",
+  "item.tutorialmod.raw_ruby":        "Unbehandelter Rubin",
+  "item.tutorialmod.ruby":            "Rubin",
+  "item.tutorialmod.raw_black_opal":  "Unbehandelter Schwarz-Opal",
+  "item.tutorialmod.black_opal":      "Schwarz-Opal",
+  
+  "item.tutorialmod.tanzanite_pickaxe": "Tansanit-Spitzhacke",
 
-  "item.tutorialmod.raw_ruby":  "Roher Rubin",
-  "item.tutorialmod.ruby":      "Rubin",
+  "item.tutorialmod.omega_axe":     "Omega Axt",
+  "item.tutorialmod.omega_hoe":     "Omega Hacke",
+  "item.tutorialmod.omega_shovel":  "Omega Schaufel",
+  "item.tutorialmod.omega_pickaxe": "Omega Spitzhacke",
+  
+  "item.tutorialmod.omega_sword":   "Omega Schwert",
 
   "item.tutorialmod.tanzanite_shard":       "Tansanitscherbe",
   "item.tutorialmod.tanzanite_shard_piece": "Tansanitsplitter",
 
-  "item.tutorialmod.tanzanite_pickaxe": "Tansanit-Spitzhacke",
-  "item.tutorialmod.omega_pickaxe":     "Omega Spitzhacke",
+  "item.tutorialmod.eight_ball":        "Magischer 8er-Ball",
+  "item.tutorialmod.eight_ball_shard":  "Magische 8er-Ballscherbe",
+  "item.tutorialmod.seven_ball":        "Magischee 7er-Ball",
+  "item.tutorialmod.seven_ball_shard":  "Magische 7er-Ballscherbe",
 
-  "item.tutorialmod.eight_ball":        "Magischer Eight Ball",
-  "item.tutorialmod.eight_ball_shard":  "Magische Eight Ball Scherbe",
-  "item.tutorialmod.seven_ball":        "Magische Seven Ball",
-  "item.tutorialmod.seven_ball_shard":  "Magische Seven Ball Scherbe",
-
-  "item.tutorialmod.eggplant":        "Aubergine",
-  "item.tutorialmod.eggplant_seeds":  "Auberginensamen",
-
-  "item.tutorialmod.soap_water_bucket": "Soap Water Bucket",
-
-  "tooltip.tutorialmod.hold_shift":   "Halte Shift für Tipps",
-  "tooltip.tutorialmod.hold_ctrl":    "Halte Ctrl für Infos",
-  "tooltip.tutorialmod.hold_alt":     "Halte Alt für Hinweise",
-
-  "tooltip.omega_pickaxe.shift": "Die vermutlich beste Spitzhacke\u000a die du jemals bekommen wirst!",
-
-  "tooltip.tutorialmod.seven_ball.alt": "Funfact about this item:\u000a Originally it wasn't even supposed to be added \u000a but then I got so bored that I made like 15 recipes \u000a and added 5 more blocks to this mod",
-  "tooltip.tutorialmod.eight_ball.shift": "Rechts-Click um eine zufällige Zahl zu erhalten.",
+  "item.tutorialmod.eggplant":       "Aubergine",
+  "item.tutorialmod.eggplant_seeds": "Auberginensamen",
+  
+  "item.tutorialmod.soap_water_bucket":     "Eimer mit Wassersuppe",
+  "item.tutorialmod.lemonade_water_bucket": "Eimer mit Limonade",
 
   "itemGroup.tutorialmod.tab1": "Tutorial Mod",
   "itemGroup.tutorialmod.tab2": "Eight Ball",
   "itemGroup.tutorialmod.tab3": "Tansanit Werkzeuge",
-  "itemGroup.tutorialmod.tab4": "Omega Werkzeuge",
-  "itemGroup.tutorialmod.tab5": "Pflanzen",
+  "itemGroup.tutorialmod.tab4": "Zitrin",
+  "itemGroup.tutorialmod.tab5": "Opal",
+  "itemGroup.tutorialmod.tab6": "Omega Werkzeuge",
+  "itemGroup.tutorialmod.tab7": "Pflanzen",
+
+  "tooltip.tutorialmod.hold_shift": "Halte Shift für Tipps",
+  "tooltip.tutorialmod.hold_ctrl":  "Halte Ctrl für Infos",
+  "tooltip.tutorialmod.hold_alt":   "Halte Alt für Hinweise",
+
+  "tooltip.omega_pickaxe.shift": "Die vermutlich beste Spitzhacke\u000a die du jemals bekommen wirst!",
+
+  "tooltip.tutorialmod.seven_ball.alt1":  "Funfact zu dem Item:",
+  "tooltip.tutorialmod.seven_ball.alt2":  "Originally it wasn't even supposed to be added",
+  "tooltip.tutorialmod.seven_ball.alt3":  "but then I got so bored that I made like 15 recipes",
+  "tooltip.tutorialmod.seven_ball.alt4":  "and added 5 more blocks to this mod",
+  "tooltip.tutorialmod.eight_ball.shift": "Rechts-KClick um eine zufällige Zahl zu erhalten.",
 
   "entity.minecraft.villager.jumpmaster":       "Jump Master",
   "entity.minecraft.villager.tanzanite_trader": "Tansanit Händler",
-  "entity.minecraft.villager.enchanter":        "Enchanter"
-
+  "entity.minecraft.villager.enchanter":        "Magier",
+  "entity.minecraft.villager.lamper":           "Lampenhändler",
+  "entity.minecraft.villager.omega_armorist":   "Omega-Ausrüster"
 }
