@@ -1,17 +1,23 @@
 package net.bexxx.tutorialmod;
 
-import net.bexxx.tutorialmod.init.blocks.ModBlocks;
-
-import net.bexxx.tutorialmod.init.fluid.ModFluids;
-import net.bexxx.tutorialmod.init.items.ModItems;
-import net.bexxx.tutorialmod.init.paintings.ModPaintings;
-import net.bexxx.tutorialmod.init.util.loot.ModLootTableModifiers;
-import net.bexxx.tutorialmod.init.villager.ModVillagers;
-import net.bexxx.tutorialmod.init.world.feature.ModConfiguredFeatures;
-import net.bexxx.tutorialmod.init.world.gen.ModOreGeneration;
+import net.bexxx.tutorialmod.block.ModBlocksRegister;
+import net.bexxx.tutorialmod.block.entities.ModBlockEntities;
+import net.bexxx.tutorialmod.entity.ModLivingEntityTypes;
+import net.bexxx.tutorialmod.entity.mobs.monster.ModIsopodYellowBlackEntity;
+import net.bexxx.tutorialmod.fluid.ModFluids;
+import net.bexxx.tutorialmod.item.ModItems;
+import net.bexxx.tutorialmod.painting.ModPaintings;
+import net.bexxx.tutorialmod.util.loot.ModLootTableModifiers;
+import net.bexxx.tutorialmod.util.professions.ModVillagerProfessions;
+import net.bexxx.tutorialmod.util.recipe.ModRecipes;
+import net.bexxx.tutorialmod.util.screens.ModScreenHandler;
+import net.bexxx.tutorialmod.world.feature.ModConfiguredFeatures;
+import net.bexxx.tutorialmod.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib3.GeckoLib;
 
 public class TutorialMod implements ModInitializer {
 	public static final String MODID = "tutorialmod";
@@ -19,18 +25,27 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModConfiguredFeatures.registerConfiguredFeatures();
+
+		ModBlocksRegister.registerModBlocks();
 		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
-		ModVillagers.registerVillagers();
-		ModVillagers.registerTrades();
+
 		ModPaintings.registerPaintings();
+
+		ModConfiguredFeatures.registerConfiguredFeatures();
 		ModOreGeneration.generateOres();
+		ModFluids.registerModFluids();
 		ModLootTableModifiers.modifyLootTables();
-		ModFluids.register();
+
+		ModVillagerProfessions.registerVillagerProfessions();
+		ModVillagerProfessions.registerTrades();
+
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandler.registerModScreenHandler();
+		ModRecipes.registerRecipes();
+
+		FabricDefaultAttributeRegistry.register(ModLivingEntityTypes.ISOPOD_YELLOW_BLACK,
+				ModIsopodYellowBlackEntity.setAttributes());
+
+		GeckoLib.initialize();
 	}
 }
-
-// TODO ORGANIZE FOLDERS
-
-
